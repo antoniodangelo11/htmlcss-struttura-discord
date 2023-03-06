@@ -26,18 +26,17 @@ nav {
 .container {
     height: 500px;
     max-width: 1000px;
+    margin-inline: auto;
     justify-content: center;
     align-items: center;
-
 }
 
-.box-blue {
+.row-blue {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #00008B;
-    height: 400px;
-    
+    flex: 0 1 70%;
 }
 
 .box-pink {
