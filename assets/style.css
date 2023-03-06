@@ -43,6 +43,8 @@ nav {
     text-align: right;
 }
 
+/*INIZIO MAIN*/
+
 .blue {
     background-color: #00008B;
 }
@@ -168,6 +170,8 @@ nav {
     background-color: #20B2AA;
     border: 1px dashed white;
 }
+
+/*INIZIO FOOTER*/
 
 footer {
     height: 80px;
