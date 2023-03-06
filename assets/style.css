@@ -23,3 +23,26 @@ nav {
     background-color: #DAA520;
 }
 
+.container {
+    height: 500px;
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box-blue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00008B;
+    height: 400px;
+    
+}
+
+.box-pink {
+    background-color: #EE82EE;
+    height: 300px;
+    border: 1px dashed black;
+    flex: 0 1 40%;
+}
