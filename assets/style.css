@@ -14,27 +14,60 @@ header {
 nav {
     border: 1px dashed black;
     display: flex;
-    margin-top: 1rem;
     height: 40px;
-    flex: 0 1 50%;
-    justify-content: space-around;
-    align-items: center;
+    width: 1200px;
+    margin: auto;
+    justify-content: space-between;
     background-color: #DAA520;
+}
+
+.logo {
+    padding: 4px;
+    height: 100%;
+    width: 20%;
+    border: 1px dashed black;
+    text-align: left;
+}
+
+.link {
+    padding: 4px;
+    height: 100%;
+    width: 60%;
+    border: 1px dashed black;
+    text-align: center;
+}
+
+.login {
+    padding: 4px;
+    height: 100%;
+    width: 20%;
+    border: 1px dashed black;
+    text-align: right;
+}
+
+.blue {
+    background-color: #00008B;
 }
 
 .container {
     display: flex;
-    background-color: #00008B;
     height: 400px;
+    max-width: 1200px;
+    margin: auto;
     justify-content: center;
     align-items: center;
 }
 
 .box-fux {
     height: 300px;
-    flex: 0 1 40%;
+    flex: 0 1 80%;
     background-color: #EE82EE;
     border: 1px dashed black;
+}
+
+.transparent {
+    max-width: 1200px;
+    margin: auto;
 }
 
 .container-1 {
@@ -58,10 +91,16 @@ nav {
     border: 1px dashed black;
 }
 
+.grey {
+   background-color: #D3D3D3;
+}
+
 .container-2 {
     background-color: #D3D3D3;
+    margin: auto;
     display: flex;
     height: 400px;
+    max-width: 1200px;
     justify-content: center;
     align-items: center;
 }
@@ -89,6 +128,8 @@ nav {
 
 .container-4 {
     background-color: #D3D3D3;
+    margin: auto;
+    max-width: 1200px;
     display: flex;
     height: 400px;
     justify-content: center;
@@ -97,15 +138,20 @@ nav {
 
 .box-green {
     height: 300px;
-    flex: 0 1 80%;
+    flex: 0 1 100%;
     background-color: #228B22;
     border: 1px dashed black;
 }
 
-.container-5 {
+.black {
     background-color: #23272A;
+}
+
+.container-5 {
     display: flex;
     height: 400px;
+    max-width: 1200px;
+    margin: auto;
     justify-content: center;
     align-items: center;
     margin-bottom: 1px;
@@ -113,14 +159,14 @@ nav {
 
 .box-salmon {
     height: 300px;
-    flex: 0 1 20%;
+    flex: 0 1 30%;
     background-color: #F08080;
     border: 1px dashed black;
 }
 
 .box-acqua {
     height: 300px;
-    flex: 0 1 10%;
+    flex: 0 1 17.5%;
     background-color: #20B2AA;
     border: 1px dashed white;
 }
@@ -134,10 +180,16 @@ footer {
 }
 
 .credits{
+    max-width: 1200px;
     display: flex;
     height: 60px;
-    flex: 0 1 50%;
+    flex: 0 1 100%;
     justify-content: space-between;
     align-items: center;
     background-color: #7FFFD4;
+}
+
+.logo-button {
+    background-color: #FFB6C1;
+    border: 1px dashed black;
 }
