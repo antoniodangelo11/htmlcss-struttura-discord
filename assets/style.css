@@ -12,11 +12,14 @@ header {
 }
 
 nav {
+    border: 1px dashed black;
     display: flex;
     margin-top: 1rem;
+    width: 100%;
     height: 40px;
     flex: 0 1 50%;
     justify-content: space-around;
     align-items: center;
     background-color: #DAA520;
 }
+
